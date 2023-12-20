@@ -27,6 +27,8 @@
 
 ## Resources
 
+**The Setup for this project will require a new LTS Version of NodeJS to be installed Node Version 20.x works well for this purpose.**
+
 The following deployed site shows your exact deliverable and what you should be building: 
 - [Deployed Site](https://asylum-rg-fe.vercel.app/)
 
