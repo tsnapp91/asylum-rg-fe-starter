@@ -15,11 +15,11 @@ Deliver the following:
 
 ### Relevant Files
 
-You must inspect the code in `src/components/pages/DataVisualizations`, `src/data`, and `src/state` to ensure that the application is pulling data from an API and not the dummy data file. Specifically, focus on `GraphWrapper.jsx`.
+You must inspect the code in `src/components/pages/DataVisualizations`, `src/data`, and `src/state` to ensure that the application is pulling data from an API and not the dummy data file. Specifically, ONLY MAKE CHANGES in `GraphWrapper.jsx`.
 
 ### Guidance
 
-Widely-used applications use robust APIs to get data. It is your job to integrate the provided API into this application and ensure everything works properly after integration. 
+Widely used applications use robust APIs to get data. It is your job to integrate the provided API into this application and ensure everything works properly after integration. 
 
 > API LINK: https://hrf-asylum-be-b.herokuapp.com/cases
 
@@ -28,17 +28,15 @@ Endpoints:
 - Fiscal Year Data: `/fiscalSummary`
 - Citizenship Data: `/citizenshipSummary`
 
-If you look at `src/data/text_data.json`, there are 2 JSON blobs, 1 for fiscal year data and the other for citizenship data. Make sure to use the correct data for each data viz. 
+If you look at `src/data/text_data.json`, there are 2 JSON blobs(google the definition of JSON blob), 1 for fiscal year data and the other for citizenship data. Study the differences in the structure of the data in `src/data/text_data.json` and the given endpoints thoroughly.  
 
-> The graphs on the Graphs page should render correctly after a successful API integration. 
+> The graphs on the Graphs page should render correctly **AFTER** a successful API integration. 
 
 You must: 
 
-1. Ensure everything is working properly after the API integration. Components should render correctly and show the data the same way they did before. 
+1. Ensure everything is working properly **AFTER** the API integration. Components should render correctly and show the data the same way they did before. (NOTE: Components may not render correctly before the integration.)
 
-2. Do not use a Node version higher than 16.16.0. If you are, you can use `nvm` (for Mac) or `nvm-windows` to easily toggle your node versions in directories. 
-
-3. Make this project your own, but keep the integrity of the main files so that the app can render and work when you wish to present it. 
+2. Make this project your own, but keep the integrity of the main files so that the app can render and work when you wish to present it. 
 
 ## Deliverables 
 
